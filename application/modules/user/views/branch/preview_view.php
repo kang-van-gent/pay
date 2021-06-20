@@ -11,20 +11,34 @@
 
 	<div class="card-header bg-primary">
 		<h3 class="card-title"><i class="fa fa-clipboard"></i> รายละเอียด <b>Branch</b></h3>
-	</div>
-	
-	<div class="card-body">
-		<div class="table-responsive">
-			<table class="table table-bordered table-hover">
-				<thead class="well">
-					<tr>
-						<th class="text-right fit">หัวข้อ</th>
-						<th>ข้อมูล</th>
-					</tr>
-				</thead>
-				<tbody>
+	</div> 
 
-					<tr>
+	
+<br>
+
+
+		<div class="card-body">
+			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+			  <li class="nav-item">
+			    <a class="nav-link active" id="pills-Work-tab" data-toggle="pill" href="#pills-Work" role="tab" aria-controls="pills-Work" aria-selected="true">ข้อมูล</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Default Payroll</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">ประกันสังคม / กองทุน</a>
+			  </li>
+			</ul>
+
+			<div class="tab-content" id="pills-tabContent">
+			<!-- Work Info -->
+			<div class="tab-pane fade show active" id="pills-Work" role="tabpanel" aria-labelledby="pills-Work-tab">
+			<div class="row">
+			<div class="col-sm">
+			<div class="table-responsive">
+				<table class="table table-bordered table-hover">
+				<tbody>
+				<tr>
 						<td class="text-right fit"><b>Id :</b></td>
 						<td>{record_branch_id}</td>
 					</tr>
@@ -52,7 +66,18 @@
 						<td class="text-right fit"><b>อำเภอ :</b></td>
 						<td>{record_branch_ampur}</td>
 					</tr>
-					<tr>
+
+				</tbody>
+				</table>
+			</div> 
+
+			</div> 
+
+			<div class="col-sm">
+				<div class="table-responsive">
+				<table class="table table-bordered table-hover">
+				<tbody>
+				<tr>
 						<td class="text-right fit"><b>จังหวัด :</b></td>
 						<td>{record_rf_city_id}</td>
 					</tr>
@@ -77,28 +102,22 @@
 						<td class="text-right fit"><b>Logo :</b></td>
 						<td>{preview_branch_logo}</td>
 					</tr>
-<!-- 					<tr>
-						<td class="text-right fit"><b>วันผ่านทดลองงาน :</b></td>
-						<td>{record_numpass}</td>
-					</tr>
-					<tr>
-						<td class="text-right fit"><b>CompanyG :</b></td>
-						<td>{record_branch_g}</td>
-					</tr> -->
 
-				</tbody>
-			</table>
 
-			<table class="table table-bordered table-hover">
-				<thead class="well">
-					<tr>
-						<th class="text-right fit">หัวข้อ</th>
-						<th>Default Payroll</th>
-					</tr>
-				</thead>
-				<tbody>
-
-					<tr>
+					</tbody>
+				</table>
+				</div> 
+			</div> 
+			</div> 
+		</div>
+		<!-- Default payroll-->
+		<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+			<div class="row">
+			<div class="col-sm">	
+				<div class="table-responsive">
+				<table class="table table-bordered table-hover">
+				 <tbody>
+				 <tr>
 						<td class="text-right fit"><b>รูปแบบรายรับรายหัก :</b></td>
 						<td>{record_rf_formart_id}</td>
 					</tr>
@@ -118,7 +137,16 @@
 						<td class="text-right fit"><b>จำนวนวันผ่านทดลองงาน :</b></td>
 						<td>{record_num_datepass} วัน</td>
 					</tr>
-					<tr>
+
+				  </tbody>
+				</table>
+			    </div> 
+			</div>
+			<div class="col-sm">	
+				<div class="table-responsive">
+				<table class="table table-bordered table-hover">
+				 <tbody>
+				 <tr>
 						<td class="text-right fit"><b>ธนาคารที่ใช้เข้า ATM:</b></td>
 						<td>{record_rf_bank_id}</td>
 					</tr>
@@ -139,18 +167,21 @@
 						<td>{record_num_datest} วัน</td>
 					</tr>
 				</tbody>
-			</table>
+				</table>
+			    </div> 
+			</div>
 
-			<table class="table table-bordered table-hover">
-				<thead class="well">
-					<tr>
-						<th class="text-right fit">หัวข้อ</th>
-						<th>ประกันสังคม / กองทุน</th>
-					</tr>
-				</thead>
+		 	</div>
+		</div>
+
+		<!-- ประกันสังคม -->
+		<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+		<div class="row">
+			<div class="col-sm">
+			<div class="table-responsive">
+				<table class="table table-bordered table-hover">
 				<tbody>
-
-					<tr>
+				<tr>
 						<td class="text-right fit"><b>ประกันสังคมลำดับสาขา :</b></td>
 						<td>{record_branch_ssonum}</td>
 					</tr>
@@ -170,7 +201,17 @@
 						<td class="text-right fit"><b>เปอร์เซ็น สปส :</b></td>
 						<td>{record_sso_prde}</td>
 					</tr>
-					<tr>
+
+				</tbody>
+				</table>
+			</div> 
+			</div> 
+
+			<div class="col-sm">
+			<div class="table-responsive">
+				<table class="table table-bordered table-hover">
+				<tbody>
+				<tr>
 						<td class="text-right fit"><b>รหัสบริษัท:</b></td>
 						<td>{record_fun_customer}</td>
 					</tr>
@@ -190,8 +231,21 @@
 						<td class="text-right fit"><b>ประเภทปัดเศษเงินทุน :</b></td>
 						<td>{record_rf_fun_satangpay}</td>
 					</tr>
+
 				</tbody>
-			</table>
+				</table>
+			</div> 
+			</div>
+
+		</div> 
 		</div>
 	</div>
+<!-- 	<div class="col-sm-12 col-md-12">
+		<div class="pull-right text-right">
+			<a href="{page_url}/preview_print_pdf/{recode_url_encrypt_id}" target="_blank" class="btn btn-danger btn-lg" data-toggle="tooltip" title="พิมพ์ข้อมูล">
+				<i class="fas fa-file-pdf"></i></span> PDF
+			</a>
+		</div>
+	</div>
+<hr/> -->
 </div>
