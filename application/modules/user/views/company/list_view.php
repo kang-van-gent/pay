@@ -175,51 +175,6 @@
 	var param_current_path = '{current_path_uri}';
 </script>
 
-<?php
-function typeformat($data_list) {
-	// loop data list 
-	$n =2;
-	for ($i=1; $i < count($data_list); $i++) { 
-		if ($i == $data_list[$i]['company_g']) {
-			echo '<input type="radio" id="male" name="gender" value=" '.$data_list[$i]['company_g'].' " checked>
-		<label for="male">'.$i.'</label><br>';
-		}else{
-			echo '<input type="radio" id="male" name="gender" value=" '.$data_list[$i]['company_g'].' ">
-		<label for="male">'.$i.'</label><br>';
-		}
-	}
-}
-// typeformat()
 
 
-// echo $data_list[1]['company_id'];
-// echo count($data_list);
-?>
-
-<table id="simpletable" class="table table-striped table-bordered nowrap">
-				<thead class="info">
-					<tr bgcolor="#dddddd">
-					
-						<th>id</th>
-						<th>บริษัท</th>
-						<th>ชื่อย่อบริษัท</th>
-						<th>ประเภท</th>
-			
-
-					</tr>
-				</thead>
-				<tbody>
-					<tr parser-repeat="[data_list]" id="row_{record_number}">
-						
-						<td>{company_id}</td>
-						<td>{company_name}</td>
-						<td>{company_nick}</td>
-						<td><?php typeformat($data_list);?></td>
-
-
-					
-
-					</tr>
-				</tbody>
-			</table>
 
