@@ -118,10 +118,12 @@
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  รายได้รวม </td>
-							<td height="30" align="center"><input type="checkbox" id="formart_salary" name="salary1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" id="formart_salary" name="salary1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" id="formart_salary" name="salary2"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" id="formart_salary" name="salary3"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" id="formart_salary" name="salary4"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" id="formart_salary" name="salary4"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  คืนเงินประกัน</td>
@@ -297,150 +299,192 @@
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom1" name="text_Incom1" value="{record_text_Incom1}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom2" name="text_Incom2" value="{record_text_Incom2}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom3" name="text_Incom3" value="{record_text_Incom3}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom4" name="text_Incom4" value="{record_text_Incom4}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom5" name="text_Incom5" value="{record_text_Incom5}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom5" name="text_Incom5" value="{record_text_Incom5}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom6" name="text_Incom6" value="{record_text_Incom6}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom7" name="text_Incom7" value="{record_text_Incom7}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom8" name="text_Incom8" value="{record_text_Incom8}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom9" name="text_Incom9" value="{record_text_Incom9}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom10" name="text_Incom10" value="{record_text_Incom10}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom11" name="text_Incom11" value="{record_text_Incom11}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom12" name="text_Incom12" value="{record_text_Incom12}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom13" name="text_Incom13" value="{record_text_Incom13}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom14" name="text_Incom14" value="{record_text_Incom14}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom15" name="text_Incom15" value="{record_text_Incom15}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom16" name="text_Incom16" value="{record_text_Incom16}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom17" name="text_Incom17" value="{record_text_Incom17}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom18" name="text_Incom18" value="{record_text_Incom18}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom19" name="text_Incom19" value="{record_text_Incom19}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom20" name="text_Incom20" value="{record_text_Incom20}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td width="10%" align="center"><strong><font color="green">1</font></strong></td>
@@ -451,38 +495,48 @@
 							
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_ot101p" name="text_ot101p" value="{record_text_ot101p}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_ot115p" name="text_ot115p" value="{record_text_ot115p}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_ot121p" name="text_ot121p" value="{record_text_ot121p}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_ot103p" name="text_ot103p" value="{record_text_ot103p}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_ot104p" name="text_ot104p" value="{record_text_ot104p}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							</tbody>
 				</tbody>
@@ -515,143 +569,183 @@
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักประกัน </td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักเงินกู้</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักค่าชุด</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักค่าบัตร</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักค่าตรวจสุขภาพ</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  Visa</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  Work Permit</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักเงินกรมบังคับคดี</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักค่าความเสียหาย</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  Visa</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  Work Permit</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักขาด</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักสาย</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักค่าปรับ</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  หักอื่นๆ</td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="textde_out1" name="textde_out1" value="{record_textde_out1}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="textde_out2" name="textde_out2" value="{record_textde_out2}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="textde_out3" name="textde_out3" value="{record_textde_out3}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="textde_out4" name="textde_out4" value="{record_textde_out4}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="textde_out5" name="textde_out5" value="{record_textde_out5}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							
+
 							</tr>
 							<tr>
 							<td width="10%" align="center"><strong><font color="green">1</font></strong></td>
@@ -662,25 +756,25 @@
 
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="textde_works1p" name="textde_works1p" value="{record_textde_works1p}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="textde_works2p" name="textde_works2p" value="{record_textde_works2p}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="textde_works3p" name="textde_works3p" value="{record_textde_works3p}" readonly="readonly" /></input></td>
-							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+
 							</tr>
 						</tbody>
 				</table>
@@ -696,15 +790,17 @@
 
 <?php
 
-function typeformat($record_formart_salary)
+function typeformat($type)
 {
-	$a = json_encode($record_formart_salary);
-	for ($i=0; $i < 4 ; $i++) { 
-		echo '<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>' ;
+	for ($i=1; $i < 5 ; $i++) { 
+		if ($type == $i) {
+			echo '<td height="30" align="center"><input type="checkbox" name="es_id1"  value=" '.$i.' " checked /></td>' ;
+		}
+		else{
+			echo '<td height="30" align="center"><input type="checkbox" name="es_id1"  value=" '.$i.' " disabled/></td>' ;
+		}
 	}
 }
-// print json_encode($record_formart_salary)
-// typeformat($record_formart_salary);
 ?>
 
 
