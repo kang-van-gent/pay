@@ -709,3 +709,17 @@
 				print_r($_POST);
 				echo '</pre>'
 				?>
+				<?php
+
+function typeformat($type)
+{
+	for ($i=1; $i < 5 ; $i++) { 
+		if ($type == $i) {
+			echo '<td height="30" align="center"><input type="checkbox" name="es_id1"  value=" '.$i.' " checked /></td>' ;
+		}
+		else{
+			echo '<td height="30" align="center"><input type="checkbox" name="es_id1"  value=" '.$i.' " disabled/></td>' ;
+		}
+	}
+}
+?>

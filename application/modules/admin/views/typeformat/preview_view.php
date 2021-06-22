@@ -131,7 +131,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_shutdown); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  เงินค่าชดเชย</td>
@@ -139,7 +139,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_ot); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  ค่าบอกกล่าว</td>
@@ -147,7 +147,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_shift); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  เงิน Shut Down</td>
@@ -155,7 +155,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_meal); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  เงิน OT</td>
@@ -163,7 +163,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_car); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  เงินค่ากะ</td>
@@ -171,7 +171,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_diligent); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  ค่าอาหาร</td>
@@ -179,7 +179,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_etc); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  ค่ารถ</td>
@@ -187,7 +187,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_bonus); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  เบี้ยขยัน</td>
@@ -195,7 +195,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_cola); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  เบี้ยเลี้ยง</td>
@@ -203,7 +203,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_telephone); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  โบนัส</td>
@@ -211,7 +211,7 @@
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
-							<?php typeformat($record_formart_salary); ?>
+							<?php typeformat($record_formart_skill); ?>
 						</tr>
 						<tr>
 							<td height="30">&nbsp;*  ค่าครองชีพ</td>
@@ -299,190 +299,232 @@
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom1" name="text_Incom1" value="{record_text_Incom1}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom2" name="text_Incom2" value="{record_text_Incom2}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom3" name="text_Incom3" value="{record_text_Incom3}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom4" name="text_Incom4" value="{record_text_Incom4}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom5" name="text_Incom5" value="{record_text_Incom5}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom5" name="text_Incom5" value="{record_text_Incom5}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom6" name="text_Incom6" value="{record_text_Incom6}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom7" name="text_Incom7" value="{record_text_Incom7}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom8" name="text_Incom8" value="{record_text_Incom8}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom9" name="text_Incom9" value="{record_text_Incom9}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom10" name="text_Incom10" value="{record_text_Incom10}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom11" name="text_Incom11" value="{record_text_Incom11}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom12" name="text_Incom12" value="{record_text_Incom12}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom13" name="text_Incom13" value="{record_text_Incom13}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom14" name="text_Incom14" value="{record_text_Incom14}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom15" name="text_Incom15" value="{record_text_Incom15}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom16" name="text_Incom16" value="{record_text_Incom16}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom17" name="text_Incom17" value="{record_text_Incom17}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom18" name="text_Incom18" value="{record_text_Incom18}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom19" name="text_Incom19" value="{record_text_Incom19}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_Incom20" name="text_Incom20" value="{record_text_Incom20}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
@@ -495,46 +537,56 @@
 							
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_ot101p" name="text_ot101p" value="{record_text_ot101p}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_ot115p" name="text_ot115p" value="{record_text_ot115p}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_ot121p" name="text_ot121p" value="{record_text_ot121p}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_ot103p" name="text_ot103p" value="{record_text_ot103p}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
 							<tr>
 							<td height="30">&nbsp;*  <input type="text" class="form-control" id="text_ot104p" name="text_ot104p" value="{record_text_ot104p}" readonly="readonly" /></input></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
+							<!-- <td height="30" align="center"><input type="checkbox" name="es_id1"  value="1" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="2" /></td>
 							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="3" /></td>
-							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td>
+							<td height="30" align="center"><input type="checkbox" name="es_id1"  value="4" /></td> -->
+							<?php typeformat($record_formart_salary); ?>
+
 							
 
 							</tr>
@@ -792,15 +844,25 @@
 
 function typeformat($type)
 {
+	$name = json_encode(varName($type)[1]);
 	for ($i=1; $i < 5 ; $i++) { 
 		if ($type == $i) {
-			echo '<td height="30" align="center"><input type="checkbox" name="es_id1"  value=" '.$i.' " checked /></td>' ;
+			echo '<td height="30" align="center"><input type="radio" name="'.$name.'"  value=" '.$i.' " checked /></td>' ;
 		}
 		else{
-			echo '<td height="30" align="center"><input type="checkbox" name="es_id1"  value=" '.$i.' " disabled/></td>' ;
+			echo '<td height="30" align="center"><input type="radio" name="'.$name.'"  value=" '.$i.' " /></td>' ;
 		}
 	}
 }
+
+function varName( $v ) {
+    $trace = debug_backtrace();
+    $vLine = file( __FILE__ );
+    $fLine = $vLine[ $trace[0]['line'] - 1 ];
+    preg_match( "#\\$(\w+)#", $fLine, $match );
+    return( $match );
+}
+
 ?>
 
 

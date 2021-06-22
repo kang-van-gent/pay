@@ -2,10 +2,10 @@
 if (!defined('BASEPATH'))  exit('No direct script access allowed');
 
 /**
- * Company_model Class
+ * Income_model Class
  * @date 2020-04-13
  */
-class Company_model extends MY_Model
+class Income_model extends MY_Model
 {
 
 	private $my_table;

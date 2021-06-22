@@ -25,8 +25,8 @@
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="pagesDropdown">		           
 		       
-     				<a class="dropdown-item" href="{site_url}/user/#">บันทึกรายได้ประจำงวด</a>
-		            <a class="dropdown-item" href="{site_url}/user/#">บันทึกรายการหักประจำงวด</a>
+     				<a class="dropdown-item" href="{site_url}/user/income">บันทึกรายได้ประจำงวด</a>
+		            <a class="dropdown-item" href="{site_url}/user/deduction">บันทึกรายการหักประจำงวด</a>
 		            <div class="dropdown-divider"></div>
 		            <a class="dropdown-item" href="{site_url}/user/#">กำหนดงวดการจ่าย</a>		         
 		            <a class="dropdown-item" href="{site_url}/user/branch">รายละเอียดข้อมูลสาขา</a>
